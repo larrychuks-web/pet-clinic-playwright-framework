@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470">
+  <rect width="1000" height="470" fill="#ffffff"/>
+  <style>
+    text { font-family: Arial, sans-serif; fill: #17324d; }
+    .title { font-size: 27px; font-weight: 700; }
+    .label { font-size: 21px; font-weight: 700; }
+    .detail { font-size: 17px; }
+    .box { fill: #eef6fb; stroke: #2e6f9e; stroke-width: 3; rx: 12; }
+    .pet { fill: #f3f8ed; stroke: #5a8538; stroke-width: 3; rx: 12; }
+    .link { stroke: #52677a; stroke-width: 3; fill: none; }
+    .rule { font-size: 17px; font-weight: 700; }
+  </style>
+  <text class="title" x="500" y="46" text-anchor="middle">PetClinic owner–pet relationship</text>
+  <rect class="box" x="60" y="100" width="290" height="120"/>
+  <text class="label" x="205" y="140" text-anchor="middle">Owner A</text>
+  <text class="detail" x="205" y="175" text-anchor="middle">id: owner-A</text>
+  <rect class="pet" x="640" y="70" width="290" height="100"/>
+  <text class="label" x="785" y="110" text-anchor="middle">Pet: Bingo</text>
+  <text class="detail" x="785" y="140" text-anchor="middle">owner_id: owner-A</text>
+  <rect class="pet" x="640" y="200" width="290" height="100"/>
+  <text class="label" x="785" y="240" text-anchor="middle">Pet: Luna</text>
+  <text class="detail" x="785" y="270" text-anchor="middle">owner_id: owner-A</text>
+  <path class="link" d="M350 145 C470 145 510 120 640 120"/>
+  <path class="link" d="M350 175 C470 175 510 250 640 250"/>
+  <rect class="box" x="60" y="310" width="290" height="120"/>
+  <text class="label" x="205" y="350" text-anchor="middle">Owner B</text>
+  <text class="detail" x="205" y="385" text-anchor="middle">id: owner-B</text>
+  <rect class="pet" x="640" y="330" width="290" height="100"/>
+  <text class="label" x="785" y="370" text-anchor="middle">Pet: Bingo</text>
+  <text class="detail" x="785" y="400" text-anchor="middle">owner_id: owner-B</text>
+  <path class="link" d="M350 370 C470 370 510 380 640 380"/>
+  <text class="rule" x="500" y="455" text-anchor="middle">One owner may have many pets; pet names must be unique per owner.</text>
+</svg>
